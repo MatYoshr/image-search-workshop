@@ -1,13 +1,17 @@
 # Image Search Workshop
 
 ## Summary
-0. [Introduction](#introduction)
-1. [Prerequisite](#prerequisite)
-2. [How to use](#how-to-use)
-3. [Run as a linux deamon](#run-as-a-linux-deamon)
-4. [Tips](#tips)
-5. [Online demo page](#online-demo-page)
-6. [Thanks](#thanks)
+- [Image Search Workshop](#image-search-workshop)
+  - [Summary](#summary)
+  - [Introduction](#introduction)
+  - [Prerequisite](#prerequisite)
+    - [Product Search instance](#product-search-instance)
+    - [Local environment requirements](#local-environment-requirements)
+  - [How to use](#how-to-use)
+  - [Run as a linux deamon](#run-as-a-linux-deamon)
+  - [Tips](#tips)
+  - [Online demo page](#online-demo-page)
+  - [Thanks](#thanks)
 
 ## Introduction
 
@@ -122,6 +126,7 @@ export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
 
     If you plan to install this demo on a RPM-based Linux distribution, you can type the following command:
     ```
+    yum install rpm-build
     mvn rpm:rpm
     ```
 
